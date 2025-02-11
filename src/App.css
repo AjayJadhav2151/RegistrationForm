@@ -17,9 +17,9 @@ body{
     justify-content: center;
     width: 100%;
     margin: 5% auto;
+    padding: 30px;
     align-items: center;
     text-align: center;
-    padding: 30px;
     /* padding-right: 5px; */
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -80,7 +80,7 @@ button{
     -o-transition: background-color 0.3s ease;
 }
 button:hover{
-    background-color: #45a049;
+    background-color: #f40000;
 }
 .ui-define{
     color: black;
@@ -94,4 +94,23 @@ button:hover{
     -ms-border-radius: 8px;
     -o-border-radius: 8px; */
     /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 90%;
+        padding: 15px;
+    }
+    .header{
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    button {
+        width: 50%; 
+    }
+    .ui-define{
+        font-size: 12px;
+        padding: 20px;     
+    }
+ 
 }
